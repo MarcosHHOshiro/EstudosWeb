@@ -1,0 +1,17 @@
+#background{
+    background-color: blueviolet;
+}
+
+.branco{
+    color: white;
+}
+
+.vermelho{
+    color: red;
+}
+
+.quadradoAmarelo{
+    background-color: yellow;
+    border: 2px solid;
+    height: 30px;
+}
