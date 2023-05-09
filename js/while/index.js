@@ -8,7 +8,7 @@ while(true){
     let visitou = prompt("Visitou alguma cidade? ");
 
     if(visitou == "s"){
-        let cidade = prompt("Qual o nome da cidade");
+        let cidade = prompt("Qual o nome da cidade?");
         i++;
         cidades = cidades + " - " + cidade ; 
     }else{
@@ -16,5 +16,5 @@ while(true){
     }
 };
 
-alert("O turista " + nome + " vistou " + i + "cidades" +
+alert("O turista " + nome + " vistou " + i + " cidades" +
       "\nSendo elas: " + cidades);
